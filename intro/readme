@@ -1,0 +1,4 @@
+PROBLEM 1:
+    ./daytimetcpcli 127.0.0.1 -> "connect error: Connection refused" :
+RESOLUTION:
+    You should run daytimetcpsrv first locally, it offers as a local time server. Then you can run daytimetcpcli 127.0.0.1 to get current time.
