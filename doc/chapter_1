@@ -1,0 +1,7 @@
+Technolodgy:
+    1. netstat -ni: 提供关于网络接口的信息
+    2. ifconfig interface_name: 提供接口interface_name的详细信息
+    3. netstat -nr: 输出路由表
+
+Note:
+    1. 套接口编程接口是应用层到传输层的接口，原因是应用层对应于用户进程，二传输层对应于内核
